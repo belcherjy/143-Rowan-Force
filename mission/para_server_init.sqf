@@ -204,25 +204,72 @@ if !(_chopped_trees isEqualType "") then {
 
 //Example unit types. Should be made more dynamic as the gamemode progresses.
 unit_civilian = "vn_c_men_20";
-units_vc_basic = ["vn_o_men_vc_02","vn_o_men_vc_03","vn_o_men_vc_06", "vn_o_men_vc_12", "vn_o_men_vc_local_16", "vn_o_men_vc_local_12"];
-units_vc_officer = ["vn_o_men_vc_01"];
-units_vc_smg = ["vn_o_men_vc_06","vn_o_men_vc_05","vn_o_men_vc_04"];
-units_vc_marksman = ["vn_o_men_vc_10", "vn_o_men_vc_local_10"];
-units_vc_medic = ["vn_o_men_vc_08"];
-units_vc_grenadier = ["vn_o_men_vc_07", "vn_o_men_nva_dc_07"];
-units_vc_at = ["vn_o_men_vc_14", "vn_o_men_vc_local_28"];
-units_vc_mg = ["vn_o_men_vc_11", "vn_o_men_vc_local_11"];
+units_vc_basic = [
+    "OPTRE_Ins_ER_Guerilla_AR",
+    "OPTRE_Ins_URF_Rifleman_BR", 
+    "OPTRE_Ins_URF_Rifleman_Light", 
+    "OPTRE_Ins_URF_Rifleman_AR", 
+    "OPTRE_Ins_ER_Terrorist", 
+    "OPTRE_Ins_ER_Hacker", 
+    "OPTRE_Ins_BIA_Rifleman", 
+    "OPTRE_Jackal_Major_F", 
+    "OPTRE_Jackal_F", 
+    "OPTRE_Jackal_Infantry_F", 
+    "OPTRE_Jackal_Major2_F"];
+units_vc_officer = ["OPTRE_FC_Elite_Officer"];
+units_vc_smg = ["OPTRE_FC_Elite_Minor3"];
+units_vc_marksman = [
+    "OPTRE_Ins_URF_Marksman", 
+    "OPTRE_Ins_URF_Sniper", 
+    "OPTRE_Jackal_Sharpshooter_F", 
+    "OPTRE_Jackal_Sniper_F", 
+    "OPTRE_FC_Elite_SpecOps", 
+    "OPTRE_FC_Elite_SpecOps2", 
+    "OPTRE_Ins_ER_Assassin", 
+    "OPTRE_Ins_ER_Insurgent_BR", 
+    "OPTRE_Ins_BIA_Sniper"];
+units_vc_medic = [
+    "OPTRE_Ins_ER_Surgeon", 
+    "OPTRE_Ins_URF_Medic"];
+units_vc_grenadier = [
+    "OPTRE_Ins_ER_Deserter_GL", 
+    "OPTRE_FC_Elite_Ultra2", 
+    "OPTRE_FC_Elite_Zealot2"];
+units_vc_at = [
+    "OPTRE_FC_Elite_MinorAT", 
+    "OPTRE_Ins_ER_Rebel_AT", 
+    "OPTRE_Ins_URF_AT_Specialist", 
+    "OPTRE_Ins_URF_Rifleman_AT"];
+units_vc_mg = [
+    "OPTRE_Ins_URF_Assist_Autorifleman", 
+    "OPTRE_Ins_URF_Autorifleman", 
+    "OPTRE_Ins_ER_Militia_MG", 
+    "OPTRE_Ins_BIA_AutoRifleman", 
+    "OPTRE_FC_Elite_Major", 
+    "OPTRE_FC_Elite_Zealot"];
 
-units_sog_teamleader = ["vn_b_men_sog_01", "vn_b_men_sog_13"];
-units_sog_rto = ["vn_b_men_sog_02", "vn_b_men_sog_14"];
-units_sog_medic = ["vn_b_men_sog_03", "vn_b_men_sog_15"];
-units_sog_scout = ["vn_b_men_sog_09", "vn_b_men_sog_19"];
-units_sog_grenadier = ["vn_b_men_sog_07", "vn_b_men_sog_11"];
-units_sog_machinegunner = ["vn_b_men_sog_06", "vn_b_men_sog_16", "vn_b_men_sog_18"];
+units_sog_teamleader = [
+    "OPTRE_UNSC_Marine_Soldier_TeamLead", 
+    "OPTRE_UNSC_Marine_Soldier_SquadLead"];
+units_sog_rto = [
+    "OPTRE_UNSC_Marine_Soldier_ForwardObserver", 
+    "OPTRE_UNSC_Marine_Soldier_Radioman"];
+units_sog_medic = ["OPTRE_UNSC_Marine_Soldier_Corpsman"];
+units_sog_scout = [
+    "OPTRE_UNSC_Marine_Soldier_Sniper", 
+    "OPTRE_UNSC_Marine_Soldier_Marksman"];
+units_sog_grenadier = ["OPTRE_UNSC_Marine_Soldier_Grenadier"];
+units_sog_machinegunner = [
+    "OPTRE_UNSC_Marine_Soldier_Autorifleman", 
+    "OPTRE_UNSC_Marine_Soldier_Assist_Autorifleman"];
 
-vehicles_nva_helis = ["vn_o_air_mi2_01_01"];
-vehicles_nva_planes = [];
-vehicles_vc_mortars = ["vn_o_vc_static_mortar_type63"];
+vehicles_nva_helis = [
+    "OPTRE_FC_Spirit", 
+    "OPTRE_FC_Spirit_Concussion"];
+vehicles_nva_planes = [
+    "OPTRE_FC_Type26B_Banshee", 
+    "OPTRE_FC_Type26N_Banshee"];
+vehicles_vc_mortars = ["OPTRE_FC_Elite_Minor"];
 
 pavn_ammo_crate = "Land_vn_pavn_weapons_stack2";
 aa_emplacement_build_crate = "Land_vn_pavn_weapons_stack3";

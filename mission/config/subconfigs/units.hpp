@@ -35,258 +35,532 @@ class units
 
 	class east
 	{
-		vc_local_at_ish54_b40 = "vn_o_men_vc_local_14";
-		vc_local_at_m4956_b40 = "vn_o_men_vc_local_28";
-		vc_local_grenadier_m1 = "vn_o_men_vc_local_07";
-		vc_local_grenadier_m4956 = "vn_o_men_vc_local_21";
-		vc_local_machinegunner_dp27 = "vn_o_men_vc_local_11";
-		vc_local_machinegunner_dp27_1 = "vn_o_men_vc_local_25";
-		vc_local_machinegunner_dp27_2 = "vn_o_men_vc_local_32";
-		vc_local_marksman_m9130 = "vn_o_men_vc_local_10";
-		vc_local_marksman_m9130_1 = "vn_o_men_vc_local_24";
-		vc_local_marksman_m9130_2 = "vn_o_men_vc_local_31";
-		vc_local_medic_ish54 = "vn_o_men_vc_local_08";
-		vc_local_medic_ish54_1 = "vn_o_men_vc_local_22";
-		vc_local_medic_ish54_2 = "vn_o_men_vc_local_29";
-		vc_local_officer_mat49 = "vn_o_men_vc_local_01";
-		vc_local_officer_mat49_1 = "vn_o_men_vc_local_15";
-		vc_local_rifleman_k50m = "vn_o_men_vc_local_04";
-		vc_local_rifleman_k50m_1 = "vn_o_men_vc_local_18";
-		vc_local_rifleman_m1_carbine = "vn_o_men_vc_local_16";
-		vc_local_rifleman_m38 = "vn_o_men_vc_local_02";
-		vc_local_rifleman_m38_bayo = "vn_o_men_vc_local_03";
-		vc_local_rifleman_m38_bayo_1 = "vn_o_men_vc_local_17";
-		vc_local_rifleman_m3a1 = "vn_o_men_vc_local_20";
-		vc_local_rifleman_mp40 = "vn_o_men_vc_local_06";
-		vc_local_rifleman_ppsh41 = "vn_o_men_vc_local_05";
-		vc_local_rifleman_ppsh41_1 = "vn_o_men_vc_local_19";
-		vc_local_rto_m1891 = "vn_o_men_vc_local_13";
-		vc_local_rto_m1_carbine = "vn_o_men_vc_local_27";
-		vc_local_sapper_m3a1 = "vn_o_men_vc_local_09";
-		vc_local_sapper_m3a1_1 = "vn_o_men_vc_local_23";
-		vc_local_sapper_m3a1_2 = "vn_o_men_vc_local_30";
-		vc_local_sentry_m1891_bayo = "vn_o_men_vc_local_12";
-		vc_local_sentry_m1891_bayo_1 = "vn_o_men_vc_local_26";
+		// REGULARS
+		reg_local_jac_1 		= "OPTRE_Jackal_Major_F";
+		reg_local_jac_2 		= "OPTRE_Jackal_F";
+		reg_local_jac_3 		= "OPTRE_Jackal_Infantry_F";
+		reg_local_jac_4 		= "OPTRE_Jackal_Infantry2_F";
+		reg_local_jac_5 		= "OPTRE_Jackal_Major2_F";
+		reg_local_eli_1			= "OPTRE_FC_Elite_Minor2";
+		reg_local_eli_2			= "OPTRE_FC_Elite_Minor3";
+		reg_local_eli_3			= "OPTRE_FC_Elite_Minor";
+		reg_local_eli_4			= "OPTRE_FC_Elite_Zealot";
+		reg_local_eli_5 		= "OPTRE_FC_Elite_Ultra3";
+		reg_local_eli_6			= "OPTRE_FC_Elite_Ultra";
+		reg_local_urf_br1 		= "OPTRE_Ins_URF_Rifleman_BR";
+		reg_local_urf_assault1 	= "OPTRE_Ins_URF_Rifleman_Light";
+		reg_local_urf_assault2	= "OPTRE_Ins_URF_Rifleman_AR";
+		reg_local_urf_shot1		= "OPTRE_Ins_URF_Breacher";
+		reg_local_urf_shot2		= "OPTRE_Ins_URF_Breacher2";
+		reg_local_ins_br1		= "OPTRE_Ins_ER_Insurgent_BR";
+		reg_local_ins_assault	= "OPTRE_Ins_ER_Guerilla_AR";
+		reg_local_ins_shot1		= "OPTRE_Ins_ER_Farmer";
+		reg_local_ins_shot2		= "OPTRE_Ins_ER_Terrorist";
 
-		vc_local_basic[] = {"vc_local_rifleman_m38", "vc_local_rifleman_m38_bayo", "vc_local_rifleman_m1_carbine"};
-		vc_local_officers[] = {"vc_local_officer_mat49", "vc_local_rto_m1_carbine", "vc_local_rto_m1891"};
-		vc_local_smgs[] = {"vc_local_rifleman_mp40", "vc_local_rifleman_ppsh41", "vc_local_rifleman_m3a1", "vc_local_rifleman_k50m"};
-		vc_local_marksmen[] = {"vc_local_marksman_m9130", "vc_local_marksman_m9130_1", "vc_local_marksman_m9130_2"};
-		vc_local_medics[] = {"vc_local_medic_ish54", "vc_local_medic_ish54_1", "vc_local_medic_ish54_2"};
-		vc_local_grenadiers[] = {"vc_local_grenadier_m1", "vc_local_grenadier_m4956"};
-		vc_local_ats[] = {"vc_local_at_ish54_b40", "vc_local_at_m4956_b40", "vc_local_at_m4956_b40", "vc_local_at_m4956_b40"};
-		vc_local_mgs[] = {"vc_local_machinegunner_dp27", "vc_local_machinegunner_dp27_1", "vc_local_machinegunner_dp27_2"};
-		vc_local_rtos[] = {"vc_local_rto_m1891", "vc_local_rto_m1_carbine"};
-		vc_local_sappers[] = {"vc_local_sapper_m3a1", "vc_local_sapper_m3a1_1", "vc_local_sapper_m3a1_2"};
-		vc_local_sentrys[] = {"vc_local_sentry_m1891_bayo", "vc_local_sentry_m1891_bayo_1"};
-		
-		vc_main_at_type_56_b41 = "vn_o_men_vc_14";
-		vc_main_grenadier_sks = "vn_o_men_vc_07";
-		vc_main_machinegunner_rpd = "vn_o_men_vc_11";
-		vc_main_marksman_m9130 = "vn_o_men_vc_10";
-		vc_main_medic_ish54 = "vn_o_men_vc_08";
-		vc_main_mortar_ammo_pps52 = "vn_o_men_vc_16";
-		vc_main_mortar_gunner_pps43 = "vn_o_men_vc_15";
-		vc_main_mortar_tripod_mat49 = "vn_o_men_vc_17";
-		vc_main_officer_k50m = "vn_o_men_vc_01";
-		vc_main_rifleman_mat49 = "vn_o_men_vc_04";
-		vc_main_rifleman_ppsh41 = "vn_o_men_vc_05";
-		vc_main_rifleman_sks = "vn_o_men_vc_02";
-		vc_main_rifleman_sks_bayo = "vn_o_men_vc_03";
-		vc_main_rifleman_type_56 = "vn_o_men_vc_06";
-		vc_main_rto_ppsh41 = "vn_o_men_vc_13";
-		vc_main_sapper_k50m = "vn_o_men_vc_09";
-		vc_main_sentry_m9130_bayo = "vn_o_men_vc_12";
+		// AT
+		reg_local_eli_AT		= "OPTRE_FC_Elite_MinorAT";
+		reg_local_ins_AT		= "OPTRE_Ins_ER_Rebel_AT";
+		reg_local_urf_AT1		= "OPTRE_Ins_URF_Rifleman_AT";
+		reg_local_urf_AT2		= "OPTRE_Ins_URF_AT_Specialist";
 
-		vc_main_ats[] = {"vc_main_at_type_56_b41"};
-		
-		vc_regional_at_ish54_short_b41 = "vn_o_men_vc_regional_14";
-		vc_regional_grenadier_m4956 = "vn_o_men_vc_regional_07";
-		vc_regional_machinegunner_dp27 = "vn_o_men_vc_regional_11";
-		vc_regional_marksman_m4956 = "vn_o_men_vc_regional_10";
-		vc_regional_medic_ish54 = "vn_o_men_vc_regional_08";
-		vc_regional_officer_mat49 = "vn_o_men_vc_regional_01";
-		vc_regional_rifleman_k50m = "vn_o_men_vc_regional_04";
-		vc_regional_rifleman_m38 = "vn_o_men_vc_regional_02";
-		vc_regional_rifleman_m38_bayo = "vn_o_men_vc_regional_03";
-		vc_regional_rifleman_m3a1 = "vn_o_men_vc_regional_06";
-		vc_regional_rifleman_ppsh41 = "vn_o_men_vc_regional_05";
-		vc_regional_rto_m1891 = "vn_o_men_vc_regional_13";
-		vc_regional_sapper_m3a1 = "vn_o_men_vc_regional_09";
-		vc_regional_sentry_m4956_bayo = "vn_o_men_vc_regional_12";
+		// AA
+		reg_local_urf_AA		= "OPTRE_Ins_URF_AA_Specialist";
+		reg_local_eli_AA		= "OPTRE_FC_Elite_MinorAA";
 
-		nva_65_at_sks_rpg7 = "vn_o_men_nva_65_14";
-		nva_65_grenadier_sksGl = "vn_o_men_nva_65_07";
-		nva_65_machinegunner_rpd = "vn_o_men_nva_65_11";
-		nva_65_marksman_sksSniper = "vn_o_men_nva_65_10";
-		nva_65_medic_k50m = "vn_o_men_nva_65_08";
-		nva_65_officer_k50m = "vn_o_men_nva_65_01";
-		nva_65_rifleman_k50m = "vn_o_men_nva_65_06";
-		nva_65_rifleman_sks = "vn_o_men_nva_65_02";
-		nva_65_rifleman_sksBayo = "vn_o_men_nva_65_03";
-		nva_65_rifleman_type56 = "vn_o_men_nva_65_04";
-		nva_65_rifleman_type56Bayo = "vn_o_men_nva_65_05";
-		nva_65_rto_k50m = "vn_o_men_nva_65_13";
-		nva_65_sapper_k50m = "vn_o_men_nva_65_09";
-		nva_65_sentry_sksBayo = "vn_o_men_nva_65_12";
-		nva_65_vn_o_men_65_29_dn_pps43 = "vn_o_men_nva_65_29";
-		nva_65_vn_o_men_65_30_dn_pps52 = "vn_o_men_nva_65_30";
-		nva_65_vn_o_men_65_31_dn_k50m = "vn_o_men_nva_65_31";
+		// MG
+		reg_local_ins_MG		= "OPTRE_Ins_ER_Militia_MG";
+		reg_local_urf_MG1		= "OPTRE_Ins_URF_Autorifleman";
+		reg_local_urf_MG2		= "OPTRE_Ins_URF_Assist_Autorifleman";
 
-		nva_65_d_at_sks_rpg7 = "vn_o_men_nva_65_28";
-		nva_65_d_grenadier_sksGl = "vn_o_men_nva_65_21";
-		nva_65_d_machinegunner_rpd = "vn_o_men_nva_65_25";
-		nva_65_d_marksman_sksSniper = "vn_o_men_nva_65_24";
-		nva_65_d_medic_k50m = "vn_o_men_nva_65_22";
-		nva_65_d_officer_k50m = "vn_o_men_nva_65_15";
-		nva_65_d_rifleman_k50m = "vn_o_men_nva_65_20";
-		nva_65_d_rifleman_sks = "vn_o_men_nva_65_16";
-		nva_65_d_rifleman_sksBayo = "vn_o_men_nva_65_17";
-		nva_65_d_rifleman_type56 = "vn_o_men_nva_65_18";
-		nva_65_d_rifleman_type56Bayo = "vn_o_men_nva_65_19";
-		nva_65_d_rto_k50m = "vn_o_men_nva_65_27";
-		nva_65_d_sapper_k50m = "vn_o_men_nva_65_23";
-		nva_65_d_sentry_sksBayo = "vn_o_men_nva_65_26";
-		nva_65_d_vn_o_men_65_29_dn_pps43 = "vn_o_men_nva_65_32";
-		nva_65_d_vn_o_men_65_30_dn_pps52 = "vn_o_men_nva_65_33";
-		nva_65_d_vn_o_men_65_31_dn_k50m = "vn_o_men_nva_65_34";
+		// TEAM LEADS
+		led_local_urf_SL		= "OPTRE_Ins_URF_SquadLead";
+		led_local_urg_TL		= "OPTRE_Ins_URF_TeamLead";
 
-		nva_aircrew_heli_copilot = "vn_o_men_aircrew_02";
-		nva_aircrew_heli_crew_chief = "vn_o_men_aircrew_03";
-		nva_aircrew_heli_gunner = "vn_o_men_aircrew_04";
-		nva_aircrew_heli_pilot = "vn_o_men_aircrew_01";
-		nva_aircrew_jet_pilot_0 = "vn_o_men_aircrew_05";
-		nva_aircrew_jet_pilot_1 = "vn_o_men_aircrew_06";
+		// SUPPORT
+		sup_local_urf_crew		= "OPTRE_Ins_URF_Crewman";
+		sup_local_urf_engr		= "OPTRE_Ins_URF_Engineer";
+		sup_local_urf_pilo		= "OPTRE_Ins_URF_Pilot";
+		sup_local_urf_surg		= "OPTRE_Ins_ER_Surgeon";
+		sup_local_urf_medi		= "OPTRE_Ins_URF_Medic";
 
-		nva_d_at3_gunner_pps43 = "vn_o_men_nva_36";
-		nva_d_at_sks_rpg7 = "vn_o_men_nva_28";
-		nva_d_grenadier_sksGl = "vn_o_men_nva_21";
-		nva_d_machinegunner_rpd = "vn_o_men_nva_25";
-		nva_d_marksman_sksSniper = "vn_o_men_nva_24";
-		nva_d_medic_k50m = "vn_o_men_nva_22";
-		nva_d_mortar_ammo_pps52 = "vn_o_men_nva_34";
-		nva_d_mortar_gunner_pps43 = "vn_o_men_nva_33";
-		nva_d_mortar_tripod_k50m = "vn_o_men_nva_35";
-		nva_d_officer_k50m = "vn_o_men_nva_15";
-		nva_d_rifleman_k50m = "vn_o_men_nva_20";
-		nva_d_rifleman_sks = "vn_o_men_nva_16";
-		nva_d_rifleman_sksBayo = "vn_o_men_nva_17";
-		nva_d_rifleman_type56 = "vn_o_men_nva_18";
-		nva_d_rifleman_type56Bayo = "vn_o_men_nva_19";
-		nva_d_rto_k50m = "vn_o_men_nva_27";
-		nva_d_sapper_k50m = "vn_o_men_nva_23";
-		nva_d_sentry_sksBayo = "vn_o_men_nva_26";
+		// MARKSMEN
+		mar_local_jac_marks		= "OPTRE_Jackal_Marksman_F";
+		mar_local_jac_sharps	= "OPTRE_Jackal_Sharpshooter_F";
+		mar_local_jac_sniper	= "OPTRE_Jackal_Sniper_F";
+		mar_local_ins_sniper	= "OPTRE_Ins_ER_Assassin";
+		mar_local_urg_marks		= "OPTRE_Ins_URF_Marksman";
+		mar_local_urf_sniper	= "OPTRE_Ins_URF_Sniper";
 
-		nva_dac_cong_at_type56_rpg7 = "vn_o_men_nva_dc_14";
-		nva_dac_cong_grenadier_m79 = "vn_o_men_nva_dc_07";
-		nva_dac_cong_machinegunner_rpd = "vn_o_men_nva_dc_11";
-		nva_dac_cong_marksman_sksSniper = "vn_o_men_nva_dc_10";
-		nva_dac_cong_medic_k50m = "vn_o_men_nva_dc_08";
-		nva_dac_cong_officer_type56 = "vn_o_men_nva_dc_01";
-		nva_dac_cong_rifleman_k50m = "vn_o_men_nva_dc_06";
-		nva_dac_cong_rifleman_sksBayo_izh54P = "vn_o_men_nva_dc_03";
-		nva_dac_cong_rifleman_type56 = "vn_o_men_nva_dc_04";
-		nva_dac_cong_rifleman_type56Bayo_0 = "vn_o_men_nva_dc_02";
-		nva_dac_cong_rifleman_type56Bayo_1 = "vn_o_men_nva_dc_05";
-		nva_dac_cong_rto_izh54 = "vn_o_men_nva_dc_13";
-		nva_dac_cong_sapper_k50m = "vn_o_men_nva_dc_09";
-		nva_dac_cong_sentry_sksBayo = "vn_o_men_nva_dc_12";
-		nva_dac_cong_vn_o_men_dc_15_dn_pps43 = "vn_o_men_nva_dc_15";
-		nva_dac_cong_vn_o_men_dc_16_dn_pps52 = "vn_o_men_nva_dc_16";
-		nva_dac_cong_vn_o_men_dc_17_dn_k50m = "vn_o_men_nva_dc_17";
+		// OFFICER
+		off_local_eli_fMarsh1	= "OPTRE_FC_Elite_FieldMarshal";
+		off_local_eli_fMarsh2	= "OPTRE_FC_Elite_FieldMarshal2";
+		off_local_eli_hGuard	= "OPTRE_FC_Elite_HonorGuard";
+		off_local_eli_maj		= "OPTRE_FC_Elite_Major";
+		off_local_eli_officer	= "OPTRE_FC_Elite_Officer";
 
-		nva_main_at3_gunner_pps43 = "vn_o_men_nva_32";
-		nva_main_at_sks_rpg7 = "vn_o_men_nva_14";
-		nva_main_grenadier_sksGl = "vn_o_men_nva_07";
-		nva_main_machinegunner_rpd = "vn_o_men_nva_11";
-		nva_main_marksman_sksSniper = "vn_o_men_nva_10";
-		nva_main_medic_k50m = "vn_o_men_nva_08";
-		nva_main_mortar_ammo_pps52 = "vn_o_men_nva_30";
-		nva_main_mortar_gunner_pps43 = "vn_o_men_nva_29";
-		nva_main_mortar_tripod_k50m = "vn_o_men_nva_31";
-		nva_main_officer_k50m = "vn_o_men_nva_01";
-		nva_main_rifleman_k50m = "vn_o_men_nva_06";
-		nva_main_rifleman_sks = "vn_o_men_nva_02";
-		nva_main_rifleman_sksBayo = "vn_o_men_nva_03";
-		nva_main_rifleman_type56 = "vn_o_men_nva_04";
-		nva_main_rifleman_type56Bayo = "vn_o_men_nva_05";
-		nva_main_rto_k50m = "vn_o_men_nva_13";
-		nva_main_sapper_k50m = "vn_o_men_nva_09";
-		nva_main_sentry_sksBayo = "vn_o_men_nva_12";
+		// GRENADIERS
+		grn_local_eli_1			= "OPTRE_FC_Elite_Zealot2";
+		grn_local_eli_2			= "OPTRE_FC_Elite_Ultra2";
+		grn_local_eli_3			= "OPTRE_FC_Elite_SpecOps3";
+		grn_local_urf_1			= "OPTRE_Ins_URF_Grenadier";
 
-		nva_marines_at_sks_rpg2 = "vn_o_men_nva_marine_14";
-		nva_marines_grenadier_sksGl = "vn_o_men_nva_marine_07";
-		nva_marines_machinegunner_rpd = "vn_o_men_nva_marine_11";
-		nva_marines_marksman_sksSniper = "vn_o_men_nva_marine_10";
-		nva_marines_medic_k50m = "vn_o_men_nva_marine_08";
-		nva_marines_officer_k50m = "vn_o_men_nva_marine_01";
-		nva_marines_rifleman_k50m = "vn_o_men_nva_marine_06";
-		nva_marines_rifleman_sksBayo = "vn_o_men_nva_marine_04";
-		nva_marines_rifleman_sks_0 = "vn_o_men_nva_marine_02";
-		nva_marines_rifleman_sks_1 = "vn_o_men_nva_marine_03";
-		nva_marines_rifleman_type56 = "vn_o_men_nva_marine_05";
-		nva_marines_rto_k50m = "vn_o_men_nva_marine_13";
-		nva_marines_sapper_k50m = "vn_o_men_nva_marine_09";
-		nva_marines_sentry_sksBayo = "vn_o_men_nva_marine_12";
+		// SPEC OPS
+		sog_local_eli_4			= "OPTRE_FC_Elite_SpecOps4";
+		sog_local_eli_3			= "OPTRE_FC_Elite_SpecOps3";
+		sog_local_eli_2			= "OPTRE_FC_Elite_SpecOps2";
+		sog_local_eli_1			= "OPTRE_FC_Elite_SpecOps";
 
-		nva_navy_at_sks_rpg2 = "vn_o_men_nva_navy_14";
-		nva_navy_grenadier_sksGl = "vn_o_men_nva_navy_07";
-		nva_navy_machinegunner_rpd = "vn_o_men_nva_navy_11";
-		nva_navy_marksman_sksSniper = "vn_o_men_nva_navy_10";
-		nva_navy_medic = "vn_o_men_nva_navy_08";
-		nva_navy_officer_type56 = "vn_o_men_nva_navy_01";
-		nva_navy_rifleman_sksBayo = "vn_o_men_nva_navy_04";
-		nva_navy_rifleman_sks_0 = "vn_o_men_nva_navy_02";
-		nva_navy_rifleman_sks_1 = "vn_o_men_nva_navy_03";
-		nva_navy_rifleman_type56 = "vn_o_men_nva_navy_05";
-		nva_navy_rifleman_type56Bayo = "vn_o_men_nva_navy_06";
-		nva_navy_rto_k50m = "vn_o_men_nva_navy_13";
-		nva_navy_sapper_sks = "vn_o_men_nva_navy_09";
-		nva_navy_sentry_sksBayo = "vn_o_men_nva_navy_12";
+		cov_basic[] = {
+			"reg_local_jac_1",
+			"reg_local_jac_2",
+			"reg_local_jac_3",
+			"reg_local_jac_4",
+			"reg_local_jac_5",
+			"reg_local_eli_1",
+			"reg_local_eli_2",
+			"reg_local_eli_3",
+			"reg_local_eli_4",
+			"reg_local_eli_5",
+			"reg_local_eli_6"
+		};
+		hum_basic[] = {
+			"reg_local_urf_br1",
+			"reg_local_urf_assault1",
+			"reg_local_urf_assault2",
+			"reg_local_urf_shot1",
+			"reg_local_urf_shot2",
+			"reg_local_ins_br1",
+			"reg_local_ins_assault",
+			"reg_local_ins_shot1",
+			"reg_local_ins_shot2"
+		};
+		cov_officers[] = {
+			"off_local_eli_fMarsh1",
+			"off_local_eli_fMarsh2",
+			"off_local_eli_hGuard",
+			"off_local_eli_maj",
+			"off_local_eli_officer"
+		};
+		hum_officers[] = {
+			"led_local_urf_SL",
+			"led_local_urg_TL"
+		};
+		cov_marksmen[] = {
+			"mar_local_jac_marks",
+			"mar_local_jac_sharps",
+			"mar_local_jac_sniper"
+		};
+		hum_marksmen[] = {
+			"mar_local_ins_sniper",
+			"mar_local_urg_marks",
+			"mar_local_urf_sniper"
+		};
+		hum_medics[] = {
+			"sup_local_urf_surg",
+			"sup_local_urf_medi"
+		};
+		cov_grenadiers[] = {
+			"grn_local_eli_1",
+			"grn_local_eli_2",
+			"grn_local_eli_3"
+		};
+		hum_grenadiers[] = {
+			"grn_local_urf_1"
+		};
+		cov_ats[] = {
+			"reg_local_eli_AT"
+		}
+		hum_ats[] = {
+			"reg_local_ins_AT",
+			"reg_local_urf_AT1",
+			"reg_local_urf_AT2"
+		};
+		cov_aas[] = {
+			"reg_local_eli_AA"
+		};
+		hum_aas[] = {
+			"reg_local_urf_AA"
+		};
+		hum_mgs[] = {
+			"reg_local_ins_MG",
+			"reg_local_urf_MG1",
+			"reg_local_urf_MG2"
+		};
+		cov_rtos[] = {};
+		hum_rtos[] = {};
+
+		cov_sappers[] = {};
+		hum_sappers[] = {
+			"reg_local_urf_shot1",
+			"reg_local_urf_shot2",
+			"reg_local_ins_shot1",
+			"reg_local_ins_shot2"
+		};
+		cov_sentrys[] = {
+			"mar_local_jac_marks",
+			"mar_local_jac_sharps"
+		};
+		hum_sentrys[] = {"mar_local_urg_marks"};
+
+		mix_basic_000pHum		= {"cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_010pHum		= {"hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_020pHum		= {"hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_030pHum		= {"hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_040pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_050pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_060pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_070pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_080pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic"};
+		mix_basic_090pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic"};
+		mix_basic_100pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic"};
+
+		mix_marks_000pHum		= {"cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_010pHum		= {"hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_020pHum		= {"hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_030pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_040pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_050pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_060pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_070pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_080pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_090pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen"};
+		mix_marks_100pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen"};
+
+		mix_grens_000pHum		= {"cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_010pHum		= {"hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_020pHum		= {"hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_030pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_040pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_050pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_060pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_070pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_080pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_090pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers"};
+		mix_grens_100pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers"};
+
+		mix_ats_000pHum			= {"cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_010pHum			= {"hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_020pHum			= {"hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_030pHum			= {"hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_040pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_050pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_060pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_070pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_080pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats"};
+		mix_ats_090pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats"};
+		mix_ats_100pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats"};
+
+		mix_sentry_000pHum		= {"cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_010pHum		= {"hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_020pHum		= {"hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_030pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_040pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_050pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_060pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_070pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_080pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_090pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys"};
+		mix_sentry_100pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys"};
+
+		mix_officer_000pHum		= {"cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_010pHum		= {"hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_020pHum		= {"hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_030pHum		= {"hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_040pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_050pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_060pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_070pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_080pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers"};
+		mix_officer_090pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers"};
+		mix_officer_100pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers"};
+
+		opfor_basic[]			= mix_basic_010pHum;
+		opfor_officers[]		= mix_officer_000pHum;
+		opfor_smgs[]			= mix_basic_010pHum;
+		opfor_marksmen[]		= mix_marks_10pHum;
+		opfor_medics[]			= hum_medics;							// TODO - Find cov medic
+		opfor_grenadiers[]		= mix_grens_010pHum;
+		opfor_ats[]				= mix_ats_010pHum;
+		opfor_mgs[]				= hum_mgs;								// TODO - Find cov mg
+		opfor_rtos[]			= mix_basic_010pHum;
+		opfor_sappers[]			= hum_sappers;							// TODO - Find cov sapper
+		opfor_sentrys[]			= mix_sentry_010pHum;
+		vc_main_ats[]			= mix_ats_010pHum;
+
+		arvn_squad_leaders[] 	= mix_officer_100pHum;
+		arvn_rtos[]		 		= mix_basic_090pHum;
+		arvn_medics[] 			= hum_medics;
+		arvn_grenadiers[] 		= mix_grens_090pHum;
+		arvn_riflemen[] 		= mix_basic_090pHum;
+		arvn_scouts[] 			= mix_sentry_010pHum;
+		arvn_snipers[] 			= mix_marks_090pHum;
+		arvn_marksmen[] 		= mix_marks_090pHum;
+		arvn_mgs[] 				= hum_mgs;
 	};
 
 	class guer
 	{
-		arvn_copilot = "vn_i_men_aircrew_02";
-		arvn_copilot_jet = "vn_i_men_jetpilot_02";
-		arvn_crew_chief = "vn_i_men_aircrew_03";
-		arvn_crew_commander = "vn_i_men_army_14";
-		arvn_crew_driver = "vn_i_men_army_13";
-		arvn_demolitions = "vn_i_men_army_05";
-		arvn_door_gunner = "vn_i_men_aircrew_04";
-		arvn_engineer = "vn_i_men_army_04";
-		arvn_grenadier = "vn_i_men_army_07";
-		arvn_grenadier_1 = "vn_i_men_army_12";
-		arvn_grenadier_2 = "vn_i_men_army_17";
-		arvn_machine_gunner = "vn_i_men_army_06";
-		arvn_marksman = "vn_i_men_army_10";
-		arvn_medic = "vn_i_men_army_03";
-		arvn_officer = "vn_i_men_army_01";
-		arvn_pilot = "vn_i_men_aircrew_01";
-		arvn_pilot_jet = "vn_i_men_jetpilot_01";
-		arvn_quan_canh_policeman = "vn_i_men_army_22";
-		arvn_rifleman_1 = "vn_i_men_army_15";
-		arvn_rifleman_2 = "vn_i_men_army_16";
-		arvn_rifleman_3 = "vn_i_men_army_18";
-		arvn_rifleman_4 = "vn_i_men_army_19";
-		arvn_rifleman_5 = "vn_i_men_army_20";
-		arvn_rifleman_6 = "vn_i_men_army_21";
-		arvn_rto = "vn_i_men_army_08";
-		arvn_scout = "vn_i_men_army_09";
-		arvn_sniper = "vn_i_men_army_11";
-		arvn_squad_leader = "vn_i_men_army_02";
+		// REGULARS
+		reg_local_jac_1 		= "OPTRE_Jackal_Major_F";
+		reg_local_jac_2 		= "OPTRE_Jackal_F";
+		reg_local_jac_3 		= "OPTRE_Jackal_Infantry_F";
+		reg_local_jac_4 		= "OPTRE_Jackal_Infantry2_F";
+		reg_local_jac_5 		= "OPTRE_Jackal_Major2_F";
+		reg_local_eli_1			= "OPTRE_FC_Elite_Minor2";
+		reg_local_eli_2			= "OPTRE_FC_Elite_Minor3";
+		reg_local_eli_3			= "OPTRE_FC_Elite_Minor";
+		reg_local_eli_4			= "OPTRE_FC_Elite_Zealot";
+		reg_local_eli_5 		= "OPTRE_FC_Elite_Ultra3";
+		reg_local_eli_6			= "OPTRE_FC_Elite_Ultra";
+		reg_local_urf_br1 		= "OPTRE_Ins_URF_Rifleman_BR";
+		reg_local_urf_assault1 	= "OPTRE_Ins_URF_Rifleman_Light";
+		reg_local_urf_assault2	= "OPTRE_Ins_URF_Rifleman_AR";
+		reg_local_urf_shot1		= "OPTRE_Ins_URF_Breacher";
+		reg_local_urf_shot2		= "OPTRE_Ins_URF_Breacher2";
+		reg_local_ins_br1		= "OPTRE_Ins_ER_Insurgent_BR";
+		reg_local_ins_assault	= "OPTRE_Ins_ER_Guerilla_AR";
+		reg_local_ins_shot1		= "OPTRE_Ins_ER_Farmer";
+		reg_local_ins_shot2		= "OPTRE_Ins_ER_Terrorist";
 
-		//Units can be combined into arrays.
-		//Only one unit will be chosen from an array.
-		arvn_squad_leaders[] = {"arvn_squad_leader", "arvn_officer"};
-		arvn_rtos[] = {"arvn_rto"};
-		arvn_medics[] = {"arvn_medic"};
-		arvn_grenadiers[] = {"arvn_grenadier", "arvn_grenadier_1", "arvn_grenadier_2"};
-		arvn_riflemen[] = {"arvn_rifleman_1", "arvn_rifleman_2", "arvn_rifleman_3", "arvn_rifleman_4", "arvn_rifleman_5", "arvn_rifleman_6"};
-		arvn_scouts[] =	{"arvn_scout"};
-		arvn_snipers[] = {"arvn_sniper"};
-		arvn_marksmen[] = {"arvn_marksman"};
-		arvn_mgs[] = {"arvn_machine_gunner"};
+		// AT
+		reg_local_eli_AT		= "OPTRE_FC_Elite_MinorAT";
+		reg_local_ins_AT		= "OPTRE_Ins_ER_Rebel_AT";
+		reg_local_urf_AT1		= "OPTRE_Ins_URF_Rifleman_AT";
+		reg_local_urf_AT2		= "OPTRE_Ins_URF_AT_Specialist";
+
+		// AA
+		reg_local_urf_AA		= "OPTRE_Ins_URF_AA_Specialist";
+		reg_local_eli_AA		= "OPTRE_FC_Elite_MinorAA";
+
+		// MG
+		reg_local_ins_MG		= "OPTRE_Ins_ER_Militia_MG";
+		reg_local_urf_MG1		= "OPTRE_Ins_URF_Autorifleman";
+		reg_local_urf_MG2		= "OPTRE_Ins_URF_Assist_Autorifleman";
+
+		// TEAM LEADS
+		led_local_urf_SL		= "OPTRE_Ins_URF_SquadLead";
+		led_local_urg_TL		= "OPTRE_Ins_URF_TeamLead";
+
+		// SUPPORT
+		sup_local_urf_crew		= "OPTRE_Ins_URF_Crewman";
+		sup_local_urf_engr		= "OPTRE_Ins_URF_Engineer";
+		sup_local_urf_pilo		= "OPTRE_Ins_URF_Pilot";
+		sup_local_urf_surg		= "OPTRE_Ins_ER_Surgeon";
+		sup_local_urf_medi		= "OPTRE_Ins_URF_Medic";
+
+		// MARKSMEN
+		mar_local_jac_marks		= "OPTRE_Jackal_Marksman_F";
+		mar_local_jac_sharps	= "OPTRE_Jackal_Sharpshooter_F";
+		mar_local_jac_sniper	= "OPTRE_Jackal_Sniper_F";
+		mar_local_ins_sniper	= "OPTRE_Ins_ER_Assassin";
+		mar_local_urg_marks		= "OPTRE_Ins_URF_Marksman";
+		mar_local_urf_sniper	= "OPTRE_Ins_URF_Sniper";
+
+		// OFFICER
+		off_local_eli_fMarsh1	= "OPTRE_FC_Elite_FieldMarshal";
+		off_local_eli_fMarsh2	= "OPTRE_FC_Elite_FieldMarshal2";
+		off_local_eli_hGuard	= "OPTRE_FC_Elite_HonorGuard";
+		off_local_eli_maj		= "OPTRE_FC_Elite_Major";
+		off_local_eli_officer	= "OPTRE_FC_Elite_Officer";
+
+		// GRENADIERS
+		grn_local_eli_1			= "OPTRE_FC_Elite_Zealot2";
+		grn_local_eli_2			= "OPTRE_FC_Elite_Ultra2";
+		grn_local_eli_3			= "OPTRE_FC_Elite_SpecOps3";
+		grn_local_urf_1			= "OPTRE_Ins_URF_Grenadier";
+
+		// SPEC OPS
+		sog_local_eli_4			= "OPTRE_FC_Elite_SpecOps4";
+		sog_local_eli_3			= "OPTRE_FC_Elite_SpecOps3";
+		sog_local_eli_2			= "OPTRE_FC_Elite_SpecOps2";
+		sog_local_eli_1			= "OPTRE_FC_Elite_SpecOps";
+
+		cov_basic[] = {
+			"reg_local_jac_1",
+			"reg_local_jac_2",
+			"reg_local_jac_3",
+			"reg_local_jac_4",
+			"reg_local_jac_5",
+			"reg_local_eli_1",
+			"reg_local_eli_2",
+			"reg_local_eli_3",
+			"reg_local_eli_4",
+			"reg_local_eli_5",
+			"reg_local_eli_6"
+		};
+		hum_basic[] = {
+			"reg_local_urf_br1",
+			"reg_local_urf_assault1",
+			"reg_local_urf_assault2",
+			"reg_local_urf_shot1",
+			"reg_local_urf_shot2",
+			"reg_local_ins_br1",
+			"reg_local_ins_assault",
+			"reg_local_ins_shot1",
+			"reg_local_ins_shot2"
+		};
+		cov_officers[] = {
+			"off_local_eli_fMarsh1",
+			"off_local_eli_fMarsh2",
+			"off_local_eli_hGuard",
+			"off_local_eli_maj",
+			"off_local_eli_officer"
+		};
+		hum_officers[] = {
+			"led_local_urf_SL",
+			"led_local_urg_TL"
+		};
+		cov_marksmen[] = {
+			"mar_local_jac_marks",
+			"mar_local_jac_sharps",
+			"mar_local_jac_sniper"
+		};
+		hum_marksmen[] = {
+			"mar_local_ins_sniper",
+			"mar_local_urg_marks",
+			"mar_local_urf_sniper"
+		};
+		hum_medics[] = {
+			"sup_local_urf_surg",
+			"sup_local_urf_medi"
+		};
+		cov_grenadiers[] = {
+			"grn_local_eli_1",
+			"grn_local_eli_2",
+			"grn_local_eli_3"
+		};
+		hum_grenadiers[] = {
+			"grn_local_urf_1"
+		};
+		cov_ats[] = {
+			"reg_local_eli_AT"
+		}
+		hum_ats[] = {
+			"reg_local_ins_AT",
+			"reg_local_urf_AT1",
+			"reg_local_urf_AT2"
+		};
+		cov_aas[] = {
+			"reg_local_eli_AA"
+		};
+		hum_aas[] = {
+			"reg_local_urf_AA"
+		};
+		hum_mgs[] = {
+			"reg_local_ins_MG",
+			"reg_local_urf_MG1",
+			"reg_local_urf_MG2"
+		};
+		cov_rtos[] = {};
+		hum_rtos[] = {};
+
+		cov_sappers[] = {};
+		hum_sappers[] = {
+			"reg_local_urf_shot1",
+			"reg_local_urf_shot2",
+			"reg_local_ins_shot1",
+			"reg_local_ins_shot2"
+		};
+		cov_sentrys[] = {
+			"mar_local_jac_marks",
+			"mar_local_jac_sharps"
+		};
+		hum_sentrys[] = {"mar_local_urg_marks"};
+
+		mix_basic_000pHum		= {"cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_010pHum		= {"hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_020pHum		= {"hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_030pHum		= {"hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_040pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_050pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_060pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_070pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic", "cov_basic"};
+		mix_basic_080pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic", "cov_basic"};
+		mix_basic_090pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "cov_basic"};
+		mix_basic_100pHum		= {"hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic", "hum_basic"};
+
+		mix_marks_000pHum		= {"cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_010pHum		= {"hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_020pHum		= {"hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_030pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_040pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_050pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_060pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_070pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_080pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen", "cov_marksmen"};
+		mix_marks_090pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "cov_marksmen"};
+		mix_marks_100pHum		= {"hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen", "hum_marksmen"};
+
+		mix_grens_000pHum		= {"cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_010pHum		= {"hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_020pHum		= {"hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_030pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_040pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_050pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_060pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_070pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_080pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers", "cov_grenadiers"};
+		mix_grens_090pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "cov_grenadiers"};
+		mix_grens_100pHum		= {"hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers", "hum_grenadiers"};
+
+		mix_ats_000pHum			= {"cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_010pHum			= {"hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_020pHum			= {"hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_030pHum			= {"hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_040pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_050pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_060pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_070pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats", "cov_ats"};
+		mix_ats_080pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats", "cov_ats"};
+		mix_ats_090pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "cov_ats"};
+		mix_ats_100pHum			= {"hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats", "hum_ats"};
+
+		mix_sentry_000pHum		= {"cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_010pHum		= {"hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_020pHum		= {"hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_030pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_040pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_050pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_060pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_070pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_080pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys", "cov_sentrys"};
+		mix_sentry_090pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "cov_sentrys"};
+		mix_sentry_100pHum		= {"hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys", "hum_sentrys"};
+
+		mix_officer_000pHum		= {"cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_010pHum		= {"hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_020pHum		= {"hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_030pHum		= {"hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_040pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_050pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_060pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_070pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers", "cov_officers"};
+		mix_officer_080pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers", "cov_officers"};
+		mix_officer_090pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "cov_officers"};
+		mix_officer_100pHum		= {"hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers", "hum_officers"};
+
+		opfor_basic[]			= mix_basic_010pHum;
+		opfor_officers[]		= mix_officer_000pHum;
+		opfor_smgs[]			= mix_basic_010pHum;
+		opfor_marksmen[]		= mix_marks_10pHum;
+		opfor_medics[]			= hum_medics;							// TODO - Find cov medic
+		opfor_grenadiers[]		= mix_grens_010pHum;
+		opfor_ats[]				= mix_ats_010pHum;
+		opfor_mgs[]				= hum_mgs;								// TODO - Find cov mg
+		opfor_rtos[]			= mix_basic_010pHum;
+		opfor_sappers[]			= hum_sappers;							// TODO - Find cov sapper
+		opfor_sentrys[]			= mix_sentry_010pHum;
+		vc_main_ats[]			= mix_ats_010pHum;
+
+		arvn_squad_leaders[] 	= mix_officer_100pHum;
+		arvn_rtos[]		 		= mix_basic_090pHum;
+		arvn_medics[] 			= hum_medics;
+		arvn_grenadiers[] 		= mix_grens_090pHum;
+		arvn_riflemen[] 		= mix_basic_090pHum;
+		arvn_scouts[] 			= mix_sentry_010pHum;
+		arvn_snipers[] 			= mix_marks_090pHum;
+		arvn_marksmen[] 		= mix_marks_090pHum;
+		arvn_mgs[] 				= hum_mgs;
 	};
 };
 
@@ -314,532 +588,533 @@ class squad_compositions
 		//Each entry can be a text reference to a unit, or an array of references.
 		//For each entry, a unit is selected randomly to go into the template used when spawning.
 		vc_local_patrol[] = {
-			"vc_local_basic",
-			{"vc_local_basic", "vc_local_grenadiers"},
-			{"vc_local_smgs", "vc_local_officers"},
-			"vc_local_marksmen"
+			"opfor_basic",
+			{"opfor_basic", "opfor_grenadiers"},
+			{"opfor_smgs", "opfor_officers"},
+			"opfor_marksmen"
 		};
 
 		vc_local_standard[] = {
-			"vc_local_officers",
-			{"vc_local_basic", "vc_local_marksmen", "vc_local_grenadiers", "vc_local_mgs"},
-			{"vc_local_ats", "vc_main_ats"},
-			"vc_local_medics",
-			{"vc_local_marksmen", "vc_local_mgs"},
-			{"vc_local_grenadiers", "vc_local_grenadiers", "vc_local_basic"},
-			{"vc_local_basic", "vc_local_ats"},
-			{"vc_local_basic", "vc_local_smgs"},
-			{"vc_local_basic", "vc_local_mgs", "vc_local_smgs"},
-			{"vc_local_basic", "vc_local_marksmen", "vc_local_smgs"}
+			"opfor_officers",
+			{"opfor_basic", "opfor_marksmen", "opfor_grenadiers", "opfor_mgs"},
+			{"opfor_ats", "vc_main_ats"},
+			"opfor_medics",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_grenadiers", "opfor_basic"},
+			{"opfor_basic", "opfor_ats"},
+			{"opfor_basic", "opfor_smgs"},
+			{"opfor_basic", "opfor_mgs", "opfor_smgs"},
+			{"opfor_basic", "opfor_marksmen", "opfor_smgs"}
 		};
 		
 		vc_local_at[] = {
-			"vc_local_ats",
-			"vc_local_ats",
-			"vc_local_basic",
-			{"vc_local_smgs"},
-			{"vc_local_medics"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			{"opfor_smgs"},
+			{"opfor_medics"}
 		};	
 		
 		vc_local_cover_element[] = {
-			"vc_local_marksmen",
-			"vc_local_mgs",
-			{"vc_local_marksmen", "vc_local_mgs"},
-			"vc_local_basic",
-			"vc_local_smgs",
-			"vc_local_grenadiers"
+			"opfor_marksmen",
+			"opfor_mgs",
+			{"opfor_marksmen", "opfor_mgs"},
+			"opfor_basic",
+			"opfor_smgs",
+			"opfor_grenadiers"
 		};	
 			
 		vc_local_storm_element[] = {
-			"vc_local_smgs",
-			"vc_local_medics",
-			{"vc_local_rtos", "vc_local_sappers"},
-			"vc_local_basic",
-			"vc_local_basic",
-			"vc_local_smgs"
+			"opfor_smgs",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_smgs"
 		};	
 			
 		vc_local_sentry[] = {
-			"vc_local_sentrys",
-			{"vc_local_basic", "vc_local_marksmen", "vc_local_mgs", "vc_local_smgs"}
+			"opfor_sentrys",
+			{"opfor_basic", "opfor_marksmen", "opfor_mgs", "opfor_smgs"}
 		};
 		
 		vc_main_patrol[] = {
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_grenadier_sks"},
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_grenadier_sks"},
-			{"vc_main_rifleman_type_56", "vc_main_marksman_m9130", "vc_main_marksman_m9130", "vc_main_machinegunner_rpd"},	
-			{"vc_main_rifleman_mat49", "vc_main_rifleman_ppsh41"}
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_marksmen",	
+			"opfor_basic"
 		};	
 			
 		vc_main_standard[] = {
-			"vc_main_officer_k50m",
-			{"vc_main_rifleman_mat49", "vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo"},
-			"vc_main_medic_ish54",
-			"vc_main_at_type_56_b41",
-			{"vc_main_rto_ppsh41", "vc_main_rifleman_ppsh41"},
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks", "vc_main_grenadier_sks"},
-			"vc_main_rifleman_type_56",
-			{"vc_main_sapper_k50m", "vc_main_rifleman_ppsh41"},
-			{"vc_main_machinegunner_rpd", "vc_main_rifleman_mat49"},
-			{"vc_main_marksman_m9130", "vc_main_rifleman_ppsh41"}
+			"opfor_officers",
+			"opfor_basic",
+			"opfor_medics",
+			"opfor_basic",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_marksmen",
+			"opfor_sappers",
+			"opfor_mgs",
+			"opfor_smgs"
 		};	
 			
 		vc_main_at[] = {
-			"vc_main_at_type_56_b41",
-			"vc_main_at_type_56_b41",
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_grenadier_sks"},
-			"vc_main_rifleman_type_56",
-			{"vc_main_medic_ish54", "vc_main_rifleman_ppsh41"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_basic"
 		};		
 	    
 		vc_main_mortar[] = {
-			"vc_main_mortar_ammo_pps52",
-			"vc_main_mortar_gunner_pps43",
-			"vc_main_mortar_tripod_mat49",
-			"vc_main_rto_ppsh41",
-			"vc_main_rifleman_type_56",
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_grenadier_sks"}
+			"opfor_basic",		// TODO - Mortar definitions
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_rtos",
+			"opfor_basic",
+			"opfor_basic"
 		};
 	
 		vc_main_cover_element[] = {
-			"vc_main_machinegunner_rpd",
-			"vc_main_marksman_m9130",
-			{"vc_main_marksman_m9130", "vc_main_machinegunner_rpd"},
-			{"vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_grenadier_sks"},
-			"vc_main_rifleman_type_56"
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			"opfor_basic",
+			"opfor_basic"
 		};	
 	
 		vc_main_storm_element[] = {
-			"vc_main_rifleman_ppsh41",
-			"vc_main_medic_ish54",
-			{"vc_main_rto_ppsh41", "vc_main_sapper_k50m"},
-			{"vc_main_rifleman_sks_bayo", "vc_main_rifleman_type_56"},
-			{"vc_main_rifleman_sks_bayo", "vc_main_rifleman_mat49"},
-			"vc_main_rifleman_ppsh41"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+			"opfor_basic",
+			{"opfor_basic", "opfor_smgs"},
+			"opfor_basic"
 		};	
 	
 		vc_main_sentry[] = {
-			"vc_main_sentry_m9130_bayo",
-			{"vc_main_rifleman_mat49", "vc_main_rifleman_ppsh41", "vc_main_rifleman_sks", "vc_main_rifleman_sks_bayo", "vc_main_rifleman_type_56", "vc_main_marksman_m9130", "vc_main_machinegunner_rpd"}
+			"opfor_basic",
+			{"opfor_basic", "opfor_mgs"}
 		};
 		
 		vc_regional_patrol[] = {
-			{"vc_regional_rifleman_m38", "vc_regional_grenadier_m4956", "vc_regional_rifleman_m38_bayo"},
-			{"vc_regional_rifleman_m38", "vc_regional_grenadier_m4956", "vc_regional_rifleman_m38_bayo"},
-			{"vc_regional_rifleman_m3a1", "vc_regional_rifleman_ppsh41", "vc_regional_marksman_m4956", "vc_regional_machinegunner_dp27"},
-			"vc_regional_rifleman_k50m"
+			{"opfor_basic", "opfor_grenadiers", "opfor_basic"},
+			{"opfor_basic", "opfor_grenadiers", "opfor_basic"},
+			{"opfor_basic", "opfor_smgs", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 			
 		vc_regional_standard[] = {
-			"vc_regional_officer_mat49",
-			{"vc_regional_rifleman_k50m", "vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo"},	
-			"vc_regional_medic_ish54",
-			"vc_regional_at_ish54_short_b41",
-			{"vc_regional_rto_m1891", "vc_regional_rifleman_k50m"},
-			{"vc_regional_rifleman_k50m", "vc_regional_rifleman_ppsh41", "vc_regional_grenadier_m4956"},
-			{"vc_regional_sapper_m3a1", "vc_regional_rifleman_m3a1"},
-			{"vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo"},
-			{"vc_regional_machinegunner_dp27", "vc_regional_rifleman_k50m"},
-			{"vc_regional_marksman_m4956", "vc_regional_rifleman_ppsh41"}
+			"opfor_officers",
+			"opfor_basic",	
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_basic"},
+			{"opfor_basic", "opfor_smgs", "opfor_grenadiers"},
+			{"opfor_sappers", "opfor_basic"},
+			"opfor_basic",
+			{"opfor_mgs", "opfor_basic"},
+			{"opfor_marksmen", "opfor_smgs"}
 		};	
 		
 		vc_regional_at[] = {
-			"vc_regional_at_ish54_short_b41",
-			"vc_regional_at_ish54_short_b41",
-			{"vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo", "vc_regional_grenadier_m4956"},
-			{"vc_regional_rifleman_m3a1", "vc_regional_rifleman_ppsh41"},
-			{"vc_regional_medic_ish54", "vc_regional_rifleman_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_smgs"},
+			{"opfor_medics", "opfor_basic"}
 		};	
 			
 		vc_regional_cover_element[] = {
-			"vc_regional_machinegunner_dp27",
-			"vc_regional_marksman_m4956",
-			{"vc_regional_machinegunner_dp27", "vc_regional_marksman_m4956"},
-			{"vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo", "vc_regional_rifleman_m3a1"},			
-			{"vc_regional_rifleman_k50m", "vc_regional_rifleman_ppsh41"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_mgs", "opfor_marksmen"},
+			{"opfor_basic", "opfor_basic", "opfor_basic"},			
+			{"opfor_basic", "opfor_smgs"}
 		};
 
 		vc_regional_storm_element[] = {
-			"vc_regional_rifleman_k50m",
-			"vc_regional_medic_ish54",
-			{"vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo"},
-			"vc_regional_rifleman_m3a1",
-			"vc_regional_rifleman_ppsh41"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_sappers", "opfor_basic"},
+			"opfor_basic",
+			"opfor_smgs"
 		};	
 		
 		vc_regional_sentry[] = {
-			"vc_regional_sentry_m4956_bayo",
-			{"vc_regional_rifleman_k50m", "vc_regional_rifleman_m38", "vc_regional_rifleman_m38_bayo", "vc_regional_rifleman_m3a1", "vc_regional_rifleman_ppsh41", "vc_regional_machinegunner_dp27", "vc_regional_marksman_m4956"}
+			"opfor_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_smgs", "opfor_mgs", "opfor_marksmen"}
 		};
 		
 		nva_main_patrol[] = {
-			{"nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-			{"nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-			{"nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo", "nva_main_marksman_sksSniper", "nva_main_machinegunner_rpd"},
-			"nva_main_rifleman_k50m"
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 
 		nva_main_standard[] = {
-			"nva_main_officer_k50m",
-			{"nva_main_rifleman_k50m", "nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-			"nva_main_medic_k50m",
-			"nva_main_at_sks_rpg7",
-			{"nva_main_rto_k50m", "nva_main_rifleman_k50m"},
-			{"nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-			{"nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo"},
-		    {"nva_main_sapper_k50m", "nva_main_rifleman_k50m"},
-		    {"nva_main_machinegunner_rpd", "nva_main_rifleman_k50m"},
-			{"nva_main_marksman_sksSniper", "nva_main_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			"opfor_basic",
+			{"opfor_basic", "opfor_grenadiers", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_basic"},
+		    {"opfor_mgs", "opfor_basic"},
+			{"opfor_marksmen", "opfor_basic"}
 	    };
 		
         nva_main_at[] = { 
-			"nva_main_at_sks_rpg7",
-			"nva_main_at_sks_rpg7",
-			{"nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-		    {"nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo"},
-			{"nva_main_rifleman_k50m", "nva_main_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+		    "opfor_basic",
+			{"opfor_basic", "opfor_medics"}
 		};	
 		
 		 //Could be used on the Mortar emplacements (subtasks)
 		nva_main_mortar[] = { 
-			"nva_main_mortar_ammo_pps52",
-			"nva_main_mortar_gunner_pps43",
-			"nva_main_mortar_tripod_k50m",
-			"nva_main_rto_k50m",
-			{"nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_grenadier_sksGl"},
-			{"nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo"}
+			"opfor_basic",			// TODO - Mortars
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_rtos",
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic"
 		};	
 		
 		 //Combine with storm element (based on IRL elements for Attacks)
 		nva_main_cover_element[] = {
-			"nva_main_machinegunner_rpd",
-			"nva_main_marksman_sksSniper",
-			{"nva_main_marksman_sksSniper", "nva_main_machinegunner_rpd"},
-			{"nva_main_grenadier_sksGl", "nva_main_rifleman_sks", "nva_main_rifleman_sksBayo"},
-			{"nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_basic", "opfor_basic"},
+			"opfor_basic"
 		};
 		 //Combine with cover element
 		nva_main_storm_element[] = {
-			"nva_main_rifleman_k50m",
-			"nva_main_medic_k50m",
-			{"nva_main_rto_k50m", "nva_main_sapper_k50m"},
-		    {"nva_main_rifleman_sksBayo", "nva_main_rifleman_type56Bayo"},
-		    {"nva_main_rifleman_sksBayo", "nva_main_rifleman_type56Bayo"},
-			"nva_main_rifleman_k50m"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+		    "opfor_basic",
+		    "opfor_basic",
+			"opfor_basic"
 		};
 
         nva_main_sentry[] = {
-			"nva_main_sentry_sksBayo",
-			{"nva_main_rifleman_k50m", "nva_main_rifleman_sks", "nva_main_rifleman_sksBayo", "nva_main_rifleman_type56", "nva_main_rifleman_type56Bayo", "nva_main_marksman_sksSniper", "nva_main_machinegunner_rpd"}
+			"opfor_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"}
 		};
 		
 		nva_marines_patrol[] = {
-			{"nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_sksBayo", "nva_marines_grenadier_sksGl"},
-			{"nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_sksBayo", "nva_marines_grenadier_sksGl"},
-			{"nva_marines_rifleman_type56", "nva_marines_marksman_sksSniper", "nva_marines_machinegunner_rpd"},
-			"nva_marines_rifleman_k50m"
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_smgs"
 		};
 		
 		nva_marines_standard[] = {
-			"nva_marines_officer_k50m",
-			{"nva_marines_rifleman_k50m", "nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_sksBayo", "nva_marines_grenadier_sksGl"},
-			"nva_marines_medic_k50m",
-			"nva_marines_at_sks_rpg2",
-			{"nva_marines_rto_k50m", "nva_marines_rifleman_k50m"},
-			{"nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_sksBayo", "nva_marines_grenadier_sksGl"},
-			"nva_marines_rifleman_type56",
-		    {"nva_marines_sapper_k50m", "nva_marines_rifleman_k50m"},
-		    {"nva_marines_machinegunner_rpd", "nva_marines_rifleman_k50m"},
-			{"nva_marines_marksman_sksSniper", "nva_marines_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 	    };
 
 		nva_marines_raiders[] = {
-			"nva_marines_officer_k50m",
-			"nva_marines_rto_k50m",
-			"nva_marines_sapper_k50m",
-			{"nva_marines_at_sks_rpg2", "nva_marines_grenadier_sksGl"},
-			{"nva_marines_machinegunner_rpd", "nva_marines_marksman_sksSniper"},
-			{"nva_marines_medic_k50m", "nva_marines_rifleman_k50m", "nva_marines_rifleman_sksBayo", "nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_type56"}
+			"opfor_officers",
+			"opfor_rtos",
+			"opfor_sappers",
+			{"opfor_ats", "opfor_grenadiers"},
+			{"opfor_mgs", "opfor_marksmen"},
+			{"opfor_medics", "opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic"}
 		};
 	
 		nva_marines_at[] = {
-			"nva_marines_at_sks_rpg2",
-			"nva_marines_at_sks_rgp2",
-			{"nva_marines_rifleman_sks_0", "nva_marines_rifleman_sksBayo", "nva_marines_rifleman_sks_1", "nva_marines_grenadier_sksGl"},
-		    "nva_marines_rifleman_type56",
-			{"nva_marines_rifleman_k50m", "nva_marines_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+		    "opfor_basic",
+			{"opfor_smgs", "opfor_medics"}
 		};	
 	
 		nva_marines_sentry[] = {
-			"nva_marines_sentry_sksBayo",
-			{"nva_marines_rifleman_k50m", "nva_marines_rifleman_sks_0", "nva_marines_rifleman_sks_1", "nva_marines_rifleman_sksBayo", "nva_marines_rifleman_type56", "nva_marines_marksman_sksSniper", "nva_marines_machinegunner_rpd"}
+			"vs_local_sentrys",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};
 	
 		nva_navy_patrol[] = {
-			{"nva_navy_rifleman_sks_0", "nva_navy_rifleman_sks_1", "nva_navy_rifleman_sksBayo", "nva_navy_grenadier_sksGl"},
-			{"nva_navy_rifleman_sks_0", "nva_navy_rifleman_sks_1", "nva_navy_rifleman_sksBayo", "nva_navy_grenadier_sksGl"},
-			{"nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo", "nva_navy_marksman_sksSniper", "nva_navy_machinegunner_rpd"},
-			"nva_marines_rifleman_type56"
+			"opfor_basic",
+			"opfor_basic",
+			{"opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 	
 		nva_navy_standard[] = {
-			"nva_navy_officer_type56",
-			{"nva_navy_rifleman_type56", "nva_navy_rifleman_sks_0", "nva_navy_rifleman_sks_1", "nva_navy_rifleman_sksBayo", "nva_navy_grenadier_sksGl"},
-			"nva_navy_medic",
-			"nva_navy_at_sks_rpg2",
-			{"nva_navy_rto_k50m", "nva_navy_rifleman_type56"},
-			{"nva_navy_rifleman_sks_0", "nva_navy_rifleman_sks_1", "nva_navy_rifleman_sksBayo", "nva_navy_grenadier_sksGl"},
-			"nva_navy_rifleman_type56",
-		    {"nva_navy_sapper_sks", "nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo"},
-		    {"nva_navy_machinegunner_rpd", "nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo"},
-			{"nva_navy_marksman_sksSniper", "nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 	    };
 	
 		//could be placed/spawned near nva naval areas/bases at the pier
 		nva_navy_crew[] = {
-			"nva_navy_officer_type56",
-			"nva_navy_rto_k50m",
-			"nva_navy_medic",
-			{"nva_navy_machinegunner_rpd", "nva_navy_marksman_sksSniper"},
+			"opfor_officers",
+			"opfor_rtos",
+			"opfor_medics",
+			{"opfor_mgs", "opfor_marksmen"},
 		};	
 		
 		nva_navy_at[] = {
-			"nva_navy_at_sks_rpg2",
-			"nva_navy_at_sks_rgp2",
-			{"nva_navy_rifleman_sks_0", "nva_navy_rifleman_sksBayo", "nva_navy_rifleman_sks_1", "nva_navy_grenadier_sksGl"},
-			{"nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo"},
-			"nva_marines_medic_k50m"
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_medics"
 		};	
 	
 		nva_navy_sentry[] = {
-			"nva_navy_sentry_sksBayo",
-			{"nva_navy_rifleman_type56", "nva_navy_rifleman_type56Bayo", "nva_navy_rifleman_sks_0", "nva_navy_rifleman_sks_1", "nva_navy_rifleman_sksBayo", "nva_navy_marksman_sksSniper", "nva_navy_machinegunner_rpd"}
+			"vs_local_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};
 	
 		//Aircrew units could be spawned around airbases next to, hangars, landingpads etc. 
 		nva_aircrew_heli_1[] = {
-			"nva_aircrew_heli_pilot",
-			"nva_aircrew_heli_copilot"
+			"opfor_officers",
+			"opfor_officers"
 		};
 		
 		nva_aircrew_heli_2[] = {
-			"nva_aircrew_heli_pilot",
-			"nva_aircrew_heli_copilot",
-			"nva_aircrew_heli_crew_chief",
-			"nva_aircrew_heli_gunner"
+			"opfor_officers",
+			"opfor_officers",
+			"opfor_basic",
+			"opfor_basic"
 		};
 	
 		nva_aircrew_jet[] = {
-			{"nva_aircrew_jet_pilot_0", "nva_aircrew_jet_pilot_1"},
-			{"nva_aircrew_jet_pilot_0", "nva_aircrew_jet_pilot_1"}
+			"opfor_officers",
+			"opfor_officers"
 		};
 		
 		nva_dac_cong_patrol[] = {
-			{"nva_dac_cong_rifleman_sksBayo_izh54P", "nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1", "nva_dac_cong_grenadier_m79"},
-			{"nva_dac_cong_rifleman_sksBayo_izh54P", "nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1", "nva_dac_cong_grenadier_m79"},
-			{"nva_dac_cong_rifleman_type56", "nva_dac_cong_marksman_sksSniper", "nva_dac_cong_machinegunner_rpd"},
-			"nva_dac_cong_rifleman_k50m"
+			"opfor_basic",
+			"opfor_basic",
+			{"opfor_ats", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 		
 		nva_dac_cong_standard[] = {
-			"nva_dac_cong_officer_type56",
-			{"nva_dac_cong_rifleman_sksBayo_izh54P", "nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1", "nva_dac_cong_grenadier_m79"},
-			"nva_dac_cong_medic_k50m",
-			"nva_dac_cong_at_type56_rpg7",
-			{"nva_dac_cong_rto_izh54", "nva_dac_cong_rifleman_sksBayo_izh54P"},
-			{"nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1", "nva_dac_cong_rifleman_type56"},
-			"nva_dac_cong_rifleman_k50m",
-			{"nva_dac_cong_sapper_k50m", "nva_dac_cong_rifleman_k50m"},
-			{"nva_dac_cong_machinegunner_rpd", "nva_dac_cong_rifleman_k50m"},
-			{"nva_dac_cong_marksman_sksSniper", "nva_dac_cong_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 		};
 		
 		nva_dac_cong_at[] = {
-			"nva_dac_cong_at_type56_rpg7",
-			"nva_dac_cong_at_type56_rpg7",
-			{"nva_dac_cong_rifleman_sksBayo_izh54P", "nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1"},
-			"nva_dac_cong_rifleman_k50m",
-			{"nva_dac_cong_rifleman_k50m", "nva_dac_cong_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_medics"
 		};	
 			
 		nva_dac_cong_cover_element[] = {
-				"nva_dac_cong_machinegunner_rpd",
-				"nva_dac_cong_marksman_sksSniper",
-				{"nva_dac_cong_machinegunner_rpd", "nva_dac_cong_marksman_sksSniper"},
-				"nva_dac_cong_rifleman_sksBayo_izh54P",
-				{"nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_basic", "opfor_basic"},
+			"opfor_basic"
 		};
 
 		nva_dac_cong_storm_element[] = {
-				"nva_dac_cong_rifleman_k50m",
-				"nva_dac_cong_medic_k50m",
-				{"nva_dac_cong_rto_izh54", "nva_dac_cong_sapper_k50m"},
-				{"nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1"},
-				"nva_dac_cong_rifleman_sksBayo_izh54P"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+		    "opfor_basic",
+		    "opfor_basic",
+			"opfor_basic"
 		};
 		
 		nva_dac_cong_sentry[] = {
-			"nva_dac_cong_sentry_sksBayo",
-			{"nva_dac_cong_rifleman_k50m", "nva_dac_cong_rifleman_sksBayo_izh54P", "nva_dac_cong_rifleman_type56", "nva_dac_cong_rifleman_type56Bayo_0", "nva_dac_cong_rifleman_type56Bayo_1", "nva_dac_cong_machinegunner_rpd", "nva_dac_cong_marksman_sksSniper"}
+			"vs_local_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};       
 		
 		nva_d_patrol[] = {
-			{"nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-			{"nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-			{"nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo", "nva_d_marksman_sksSniper", "nva_d_machinegunner_rpd"},
-			"nva_d_rifleman_k50m"
+			"opfor_basic",
+			"opfor_basic",
+			{"opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 
 		nva_d_standard[] = {
-			"nva_d_officer_k50m",
-			{"nva_d_rifleman_k50m", "nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-			"nva_d_medic_k50m",
-			"nva_d_at_sks_rpg7",
-			{"nva_d_rto_k50m", "nva_d_rifleman_k50m"},
-			{"nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-			{"nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo"},
-		    {"nva_d_sapper_k50m", "nva_d_rifleman_k50m"},
-		    {"nva_d_machinegunner_rpd", "nva_d_rifleman_k50m"},
-			{"nva_d_marksman_sksSniper", "nva_d_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 	    };
 		
         nva_d_at[] = { 
-			"nva_d_at_sks_rpg7",
-			"nva_d_at_sks_rgp7",
-			{"nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-		    {"nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo"},
-			{"nva_d_rifleman_k50m", "nva_d_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_medics"
 		};	
 				 
 		nva_d_mortar[] = { 
-			"nva_d_mortar_ammo_pps52",
-			"nva_d_mortar_gunner_pps43",
-			"nva_d_mortar_tripod_k50m",
-			"nva_d_rto_k50m",
-			{"nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_grenadier_sksGl"},
-			{"nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo"}
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_basic"
 		};	
 				 
 		nva_d_cover_element[] = {
-			"nva_d_machinegunner_rpd",
-			"nva_d_marksman_sksSniper",
-			{"nva_d_marksman_sksSniper", "nva_d_machinegunner_rpd"},
-			{"nva_d_grenadier_sksGl", "nva_d_rifleman_sks", "nva_d_rifleman_sksBayo"},
-			{"nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_basic", "opfor_basic"},
+			"opfor_basic"
 		};
 		 
 		nva_d_storm_element[] = {
-			"nva_d_rifleman_k50m",
-			"nva_d_medic_k50m",
-			{"nva_d_rto_k50m", "nva_d_sapper_k50m"},
-		    {"nva_d_rifleman_sksBayo", "nva_d_rifleman_type56Bayo"},
-		    {"nva_d_rifleman_sksBayo", "nva_d_rifleman_type56Bayo"},
-			"nva_d_rifleman_k50m"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+		    "opfor_basic",
+		    "opfor_basic",
+			"opfor_basic"
 		};
 
         nva_d_sentry[] = {
-			"nva_d_sentry_sksBayo",
-			{"nva_d_rifleman_k50m", "nva_d_rifleman_sks", "nva_d_rifleman_sksBayo", "nva_d_rifleman_type56", "nva_d_rifleman_type56Bayo", "nva_d_marksman_sksSniper", "nva_d_machinegunner_rpd"}
+			"vs_local_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};
 
 		nva_65_d_patrol[] = {
-			{"nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_grenadier_sksGl"},
-			{"nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_grenadier_sksGl"},
-			{"nva_65_d_rifleman_type56", "nva_65_d_rifleman_type56Bayo", "nva_65_d_marksman_sksSniper", "nva_65_d_machinegunner_rpd"},
-			"nva_65_d_rifleman_k50m"
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 
 		nva_65_d_standard[] = {
-			"nva_65_d_officer_k50m",
-			{"nva_65_d_rifleman_k50m", "nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_grenadier_sksGl"},
-			"nva_65_d_medic_k50m",
-			"nva_65_d_at_sks_rpg7",
-			{"nva_65_d_rto_k50m", "nva_65_d_rifleman_k50m"},
-			{"nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_grenadier_sksGl"},
-			{"nva_65_d_rifleman_type56", "nva_65_d_rifleman_type56Bayo"},
-		    {"nva_65_d_sapper_k50m", "nva_65_d_rifleman_k50m"},
-		    {"nva_65_d_machinegunner_rpd", "nva_65_d_rifleman_k50m"},
-			{"nva_65_d_marksman_sksSniper", "nva_65_d_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 	    };
 		
         nva_65_d_at[] = { 
-			"nva_65_d_at_sks_rpg7",
-			"nva_65_d_at_sks_rgp7",
-			{"nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_grenadier_sksGl"},
-		    {"nva_65_d_rifleman_type56", "nva_65_d_rifleman_type56Bayo"},
-			{"nva_65_d_rifleman_k50m", "nva_65_d_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_medics"
 		};		
 				 
 		nva_65_d_cover_element[] = {
-			"nva_65_d_machinegunner_rpd",
-			"nva_65_d_marksman_sksSniper",
-			{"nva_65_d_marksman_sksSniper", "nva_65_d_machinegunner_rpd"},
-			{"nva_65_d_grenadier_sksGl", "nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo"},
-			{"nva_65_d_rifleman_type56", "nva_65_d_rifleman_type56Bayo"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_basic", "opfor_basic"},
+			"opfor_basic"
 		};
 		 
 		nva_65_d_storm_element[] = {
-			"nva_65_d_rifleman_k50m",
-			"nva_65_d_medic_k50m",
-			{"nva_65_d_rto_k50m", "nva_65_d_sapper_k50m"},
-		    {"nva_65_d_rifleman_sksBayo", "nva_65_d_rifleman_type56Bayo"},
-		    {"nva_65_d_rifleman_sksBayo", "nva_65_d_rifleman_type56Bayo"},
-			"nva_65_d_rifleman_k50m"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+		    "opfor_basic",
+		    "opfor_basic",
+			"opfor_basic"
 		};
 
         nva_65_d_sentry[] = {
-			"nva_65_d_sentry_sksBayo",
-			{"nva_65_d_rifleman_k50m", "nva_65_d_rifleman_sks", "nva_65_d_rifleman_sksBayo", "nva_65_d_rifleman_type56", "nva_65_d_rifleman_type56Bayo", "nva_65_d_marksman_sksSniper", "nva_65_d_machinegunner_rpd"}
+			"vs_local_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};
 		
 		nva_65_patrol[] = {
-			{"nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_grenadier_sksGl"},
-			{"nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_grenadier_sksGl"},
-			{"nva_65_rifleman_type56", "nva_65_rifleman_type56Bayo", "nva_65_marksman_sksSniper", "nva_65_machinegunner_rpd"},
-			"nva_65_rifleman_k50m"
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			{"opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_mgs"},
+			"opfor_basic"
 		};
 
 		nva_65_standard[] = {
-			"nva_65_officer_k50m",
-			{"nva_65_rifleman_k50m", "nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_grenadier_sksGl"},
-			"nva_65_medic_k50m",
-			"nva_65_at_sks_rpg7",
-			{"nva_65_rto_k50m", "nva_65_rifleman_k50m"},
-			{"nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_grenadier_sksGl"},
-			{"nva_65_rifleman_type56", "nva_65_rifleman_type56Bayo"},
-		    {"nva_65_sapper_k50m", "nva_65_rifleman_k50m"},
-		    {"nva_65_machinegunner_rpd", "nva_65_rifleman_k50m"},
-			{"nva_65_marksman_sksSniper", "nva_65_rifleman_k50m"}
+			"opfor_officers",
+			{"opfor_smgs", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_medics",
+			"opfor_ats",
+			{"opfor_rtos", "opfor_smgs"},
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_grenadiers"},
+			"opfor_basic",
+		    {"opfor_sappers", "opfor_smgs"},
+		    {"opfor_mgs", "opfor_smgs"},
+			{"opfor_marksmen", "opfor_smgs"}
 	    };
 		
         nva_65_at[] = { 
-			"nva_65_at_sks_rpg7",
-			"nva_65_at_sks_rgp7",
-			{"nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_grenadier_sksGl"},
-		    {"nva_65_rifleman_type56", "nva_65_rifleman_type56Bayo"},
-			{"nva_65_rifleman_k50m", "nva_65_medic_k50m"}
+			"opfor_ats",
+			"opfor_ats",
+			"opfor_basic",
+			"opfor_basic",
+			"opfor_medics"
 		};		
 				 
 		nva_65_cover_element[] = {
-			"nva_65_machinegunner_rpd",
-			"nva_65_marksman_sksSniper",
-			{"nva_65_marksman_sksSniper", "nva_65_machinegunner_rpd"},
-			{"nva_65_grenadier_sksGl", "nva_65_rifleman_sks", "nva_65_rifleman_sksBayo"},
-			{"nva_65_rifleman_type56", "nva_65_rifleman_type56Bayo"}
+			"opfor_mgs",
+			"opfor_marksmen",
+			{"opfor_marksmen", "opfor_mgs"},
+			{"opfor_grenadiers", "opfor_basic", "opfor_basic"},
+			"opfor_basic"
 		};
 		 
 		nva_65_storm_element[] = {
-			"nva_65_rifleman_k50m",
-			"nva_65_medic_k50m",
-			{"nva_65_rto_k50m", "nva_65_sapper_k50m"},
-		    {"nva_65_rifleman_sksBayo", "nva_65_rifleman_type56Bayo"},
-		    {"nva_65_rifleman_sksBayo", "nva_65_rifleman_type56Bayo"},
-			"nva_65_rifleman_k50m"
+			"opfor_basic",
+			"opfor_medics",
+			{"opfor_rtos", "opfor_sappers"},
+		    "opfor_basic",
+		    "opfor_basic",
+			"opfor_basic"
 		};
 
         nva_65_sentry[] = {
-			"nva_65_sentry_sksBayo",
-			{"nva_65_rifleman_k50m", "nva_65_rifleman_sks", "nva_65_rifleman_sksBayo", "nva_65_rifleman_type56", "nva_65_rifleman_type56Bayo", "nva_65_marksman_sksSniper", "nva_65_machinegunner_rpd"}
+			"opfor_sentrys",
+			{"opfor_basic", "opfor_basic", "opfor_basic", "opfor_basic", "opfor_marksmen", "opfor_marksmen", "opfor_mgs"}
 		};
 		
 	};	
